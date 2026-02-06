@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "802365808711",
+    "project_id": "ozon-afb84",
+    "storage_bucket": "ozon-afb84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802365808711:android:dd499dad4e747577e49162",
+        "android_client_info": {
+          "package_name": "com.greenpharmacy.ozon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALUvP2EVGlVop_X2oRXA8w0N5fZyFdldw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

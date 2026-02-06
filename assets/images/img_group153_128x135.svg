@@ -1,0 +1,14 @@
+<svg width="135" height="128" viewBox="0 0 135 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.1" cx="62" cy="62" r="62" fill="#261204"/>
+<circle cx="62" cy="62" r="54" fill="#261204"/>
+<circle cx="112" cy="105" r="20.5" fill="#3EB048" stroke="white" stroke-width="5"/>
+<path d="M119.476 100.513L110.513 109.476L106 104.963" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<rect x="36" y="95.1899" width="66" height="51" rx="10" transform="rotate(-90 36 95.1899)" fill="#FF7400"/>
+<circle cx="62" cy="48.1899" r="10" fill="#3EB048"/>
+<path d="M62 45.1899V51.1899" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<path d="M65 48.1899L59 48.1899" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<path d="M76 67.1899L48 67.1899" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<path d="M76 76.1899L48 76.1899" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<path d="M76 85.1899L48 85.1899" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<path opacity="0.3" d="M62 95.1899L62 29.1899L77 29.1899C82.5228 29.1899 87 33.6671 87 39.1899L87 85.1899C87 90.7128 82.5229 95.1899 77 95.1899L62 95.1899Z" fill="#84532A"/>
+</svg>

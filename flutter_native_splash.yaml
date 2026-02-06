@@ -1,0 +1,11 @@
+flutter_native_splash:
+  color: "#ffffff" # Background color for the splash screen
+  image: assets/images/ozone_logo.jpg # Path to your splash screen image
+  android: true # Enable splash screen for Android
+  ios: true # Enable splash screen for iOS
+  android_gravity: center # Controls the alignment of the image on Android
+  ios_content_mode: center # Controls the alignment of the image on iOS
+  web: false # Disable splash for web
+  android_12:
+    icon_background_color: "#ffffff" # Background color for the icon on Android 12
+     # Path to an icon for Android 12
