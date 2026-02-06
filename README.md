@@ -1,57 +1,102 @@
 
-# Ozone Mobile App
+# Ozone Mobile Application
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-blue)
 ![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green)
-![License](https://img.shields.io/badge/License-Private-orange)
+![Architecture](https://img.shields.io/badge/Architecture-Clean%20Architecture-orange)
 
-Ozone is a production‑ready **cross‑platform mobile application** developed using **Flutter**, designed to deliver scalable pharmacy and healthcare services with high performance, security, and modern UI/UX.
-
----
-
-## 📱 App Features
-- Cross‑platform mobile application (Android & iOS)
-- Secure Authentication
-- REST API Integration
-- Push Notifications (Firebase FCM)
-- PDF Upload & Download Support
-- Optimized Performance & Responsive UI
-- Production-ready architecture
+Ozone is a production‑ready **Flutter cross‑platform mobile application** designed to provide scalable healthcare and pharmacy services with secure authentication, API integrations, and high‑performance UI.
 
 ---
 
-## 🧱 Architecture
-The application follows **Clean Architecture** with modular scalable structure:
+## 📱 Application Overview
+This repository contains the **complete production source code** including:
+- Modular feature‑based architecture
+- Shared core utilities and networking layer
+- Firebase integrations (Auth, FCM)
+- REST API integration
+- Android & iOS production configurations
 
+---
+
+## 🧱 System Architecture
+
+## 🧩 Architecture Diagram
+
+![Clean Architecture Diagram](./docs/ozone_clean_architecture.png)
+
+### Clean Architecture Layers
+```
+Presentation Layer
+   ↓
+Domain Layer
+   ↓
+Data Layer
+```
+
+### Project Structure
 ```
 lib/
- ├── core/           # Base utilities, constants, networking
- ├── features/       # Feature modules (auth, home, orders, etc.)
- ├── services/       # API & Firebase services
- ├── widgets/        # Shared UI components
+ ├── core/
+ │    ├── networking/
+ │    ├── constants/
+ │    ├── theme/
+ │    └── utils/
+ │
+ ├── features/
+ │    ├── auth/
+ │    ├── home/
+ │    ├── orders/
+ │    ├── profile/
+ │    └── notifications/
+ │
+ ├── services/
+ │    ├── api_services/
+ │    ├── firebase_services/
+ │    └── storage_services/
+ │
+ ├── widgets/
+ │    └── shared/
+ │
  └── main.dart
 ```
 
 ---
 
-## 🛠 Tech Stack
+## 🚀 Features
+- Android & iOS cross‑platform application
+- Secure authentication and session handling
+- REST API integration
+- Firebase Push Notifications (FCM)
+- PDF Upload & Download
+- Optimized performance and responsive UI
+- Production‑ready deployment setup
+
+---
+
+## 📸 Screenshots
+(Add screenshots here)
+
+```
+assets/screenshots/
+   home.png
+   login.png
+   profile.png
+```
+
+---
+
+## 🛠 Technology Stack
 - Flutter (Dart)
-- Firebase (Auth, FCM, Analytics)
+- Firebase (Auth, FCM)
 - REST APIs
-- Clean Architecture + BLoC
-- Android Studio / Xcode
+- Clean Architecture
 - GitHub CI/CD Ready
 
 ---
 
-## 🚀 Getting Started
+## ⚙️ Setup
 
-### Prerequisites
-- Flutter SDK (latest stable)
-- Android Studio / VS Code
-- Xcode (for iOS builds)
-
-### Installation
 ```bash
 git clone https://github.com/MysteryBuilders/ozone.git
 cd ozone
@@ -76,13 +121,12 @@ flutter build ios
 ---
 
 ## 📦 Deployment
-The application supports deployment to:
 - Google Play Store
 - Apple App Store
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Maintainer
 **Mohammed Elshwehy**  
 Senior Mobile Application Developer (Flutter / Android / iOS)
 
